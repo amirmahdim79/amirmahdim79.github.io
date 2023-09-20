@@ -7,7 +7,7 @@
 
 # Site Settings
 locale: "en-US"
-title: "Amir Mahdi Mohamadian / Personal Website"
+title: "Amir Mahdi Mohamadian"
 title_separator: "-"
 name: &name "Amir Mahdi Mohamadian"
 description: &description "personal description"
