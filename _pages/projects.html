@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Projects"
+title: "Projects and Achievements"
 permalink: /projects/
 author_profile: true
 ---
@@ -10,3 +10,18 @@ author_profile: true
 <div>
     Projects
 </div>
+
+<script>
+    let user = localStorage.getItem("userId")
+	if (!user) {
+		user = generateString(5)
+		localStorage.setItem("userId", user)
+	}
+	fetch("https://qtoppia.com/api/data/personal-website", {
+		method: "POST",
+		body: JSON.stringify({
+			origin: 'projects',
+			user,
+		})
+	});
+</script>
