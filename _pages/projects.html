@@ -27,9 +27,12 @@ author_profile: true
             window.localStorage.setItem('userId', user);
         };
 
-        fetch(`https://qtoppia.com/api/data/personal-website:projects:${user}`, {
-            method: "POST",
-        })
+        if (user !== 'amir') {
+            fetch(`https://qtoppia.com/api/data/personal-website:projects:${user}`, {
+                method: "POST",
+            })
+        };
+        
     </script>
 </head>
 

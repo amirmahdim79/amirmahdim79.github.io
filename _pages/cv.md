@@ -32,7 +32,9 @@ To Download my latest CV, click [here](/files/AmirMahdiMohamadian-CV-v2.4.pdf)
 		window.localStorage.setItem('userId', user);
 	};
 
-	fetch(`https://qtoppia.com/api/data/personal-website:cv:${user}`, {
-		method: "POST",
-	});
+  if (user !== 'amir') {
+    fetch(`https://qtoppia.com/api/data/personal-website:cv:${user}`, {
+      method: "POST",
+    });
+  }
 </script>

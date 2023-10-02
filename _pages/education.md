@@ -33,7 +33,9 @@ You can read more about my education in my CV. You can download my CV by clickin
 		window.localStorage.setItem('userId', user);
 	};
 
-	fetch(`https://qtoppia.com/api/data/personal-website:education:${user}`, {
-		method: "POST",
-	});
+  if (user !== 'amir') {
+    fetch(`https://qtoppia.com/api/data/personal-website:education:${user}`, {
+      method: "POST",
+    });
+  };
 </script>
