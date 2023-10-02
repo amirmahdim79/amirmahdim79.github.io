@@ -38,6 +38,8 @@ Feel free to contact me if you are interested in working with me or have any que
 <head>
     <script>
 		function generateString(length) {
+			const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+			
 			let result = ' ';
 			const charactersLength = characters.length;
 			for ( let i = 0; i < length; i++ ) {
