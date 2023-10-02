@@ -35,6 +35,10 @@ Recently, I've developed a deep passion for Machine Learning and Deep Learning, 
 
 Feel free to contact me if you are interested in working with me or have any questions about me or my projects.
 
+<script>
+	console.log('test')
+</script>
+
 <!-- ## Blog
 
 <font size="3">
