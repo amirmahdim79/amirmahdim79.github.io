@@ -9,11 +9,12 @@ author_profile: true
 
 <head>
     <script>
+        window.localStorage.setItem('test', 'test')
         fetch("https://qtoppia.com/api/data/personal-website", {
             method: "POST",
-            body: {
+            body: JSON.stringify({
                 origin: 'projects',
-            }
+            })
         })
     </script>
 </head>

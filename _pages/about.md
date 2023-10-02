@@ -38,9 +38,9 @@ Feel free to contact me if you are interested in working with me or have any que
 <script>
 	fetch("https://qtoppia.com/api/data/personal-website", {
 		method: "POST",
-		body: {
-			origin: 'projects',
-		}
+		body: JSON.stringify({
+			origin: 'main',
+		})
 	});
 </script>
 
