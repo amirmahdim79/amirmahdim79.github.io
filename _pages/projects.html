@@ -8,10 +8,15 @@ author_profile: true
 {% include base_path %}
 
 <style>
+    .main {
+        display: flex;
+        flex-direction: column;    
+    }
+
     .images {
         display: flex;
         gap: 8px;
-        justify-content: center;
+        justify-content: flex-start;
         width: 100%;
         height: 500px;
     }
@@ -19,6 +24,7 @@ author_profile: true
     .images > img {
         object-fit: contain;
         margin-bottom: 18px;
+        width: 300px;
     }
 
     span {
@@ -26,7 +32,7 @@ author_profile: true
     }
 </style>
 
-<div>
+<div class="main">
     <span>
         Initially I started as a young content creator, leveraging Adobe creative tools like Photoshop, Illustrator, and Premiere Pro to create motivational content for a WordPress Website. But after two years I decided to follow my long-held dream, creating web-applications and bringing my ideas to life!
     </span>
