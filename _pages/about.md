@@ -36,11 +36,8 @@ Recently, I've developed a deep passion for Machine Learning and Deep Learning, 
 Feel free to contact me if you are interested in working with me or have any questions about me or my projects.
 
 <script>
-	fetch("https://qtoppia.com/api/data/personal-website", {
+	fetch("https://qtoppia.com/api/data/personal-website:main", {
 		method: "POST",
-		body: JSON.stringify({
-			origin: 'main',
-		})
 	});
 </script>
 
