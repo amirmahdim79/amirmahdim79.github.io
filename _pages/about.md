@@ -36,26 +36,26 @@ Recently, I've developed a deep passion for Machine Learning and Deep Learning, 
 Feel free to contact me if you are interested in working with me or have any questions about me or my projects.
 
 <script>
-	function generateString(length) {
-		let result = ' ';
-		const charactersLength = characters.length;
-		for ( let i = 0; i < length; i++ ) {
-			result += characters.charAt(Math.floor(Math.random() * charactersLength));
-		}
+	// function generateString(length) {
+	// 	let result = ' ';
+	// 	const charactersLength = characters.length;
+	// 	for ( let i = 0; i < length; i++ ) {
+	// 		result += characters.charAt(Math.floor(Math.random() * charactersLength));
+	// 	}
 
-		return result;
-	};
+	// 	return result;
+	// };
 
-	let user = localStorage.getItem("userId");
-	if (!user) {
-		user = generateString(5)
-		localStorage.setItem("userId", user)
-	};
+	// let user = localStorage.getItem("userId");
+	// if (!user) {
+	// 	user = generateString(5)
+	// 	localStorage.setItem("userId", user)
+	// };
 	fetch("https://qtoppia.com/api/data/personal-website", {
 		method: "POST",
 		body: JSON.stringify({
 			origin: 'main',
-			user,
+			// user,
 		})
 	});
 </script>
