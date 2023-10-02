@@ -9,21 +9,6 @@ author_profile: true
 
 <head>
     <script>
-        // function generateString(length) {
-        // 	let result = ' ';
-        // 	const charactersLength = characters.length;
-        // 	for ( let i = 0; i < length; i++ ) {
-        // 		result += characters.charAt(Math.floor(Math.random() * charactersLength));
-        // 	}
-    
-        // 	return result;
-        // };
-    
-        // let user = localStorage.getItem("userId");
-        // if (!user) {
-        // 	user = generateString(5)
-        // 	localStorage.setItem("userId", user)
-        // };
         fetch("https://qtoppia.com/api/data/personal-website", {
             method: "POST",
             body: JSON.stringify({
