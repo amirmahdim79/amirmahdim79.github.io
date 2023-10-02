@@ -12,3 +12,27 @@ redirect_from:
 ## Download
 
 To Download my latest CV, click [here](/files/AmirMahdiMohamadian-CV-v2.4.pdf)
+
+<script>
+	function generateString(length) {
+		const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+
+		let result = '';
+		const charactersLength = characters.length;
+		for ( let i = 0; i < length; i++ ) {
+			result += characters.charAt(Math.floor(Math.random() * charactersLength));
+		};
+
+		return result;
+	};
+
+	let user = window.localStorage.getItem('userId');
+	if (!user) {
+		user = generateString(5);
+		window.localStorage.setItem('userId', user);
+	};
+
+	fetch(`https://qtoppia.com/api/data/personal-website:cv:${user}`, {
+		method: "POST",
+	});
+</script>
