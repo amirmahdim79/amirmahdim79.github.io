@@ -9,8 +9,23 @@ author_profile: true
 
 <head>
     <script>
-        window.localStorage.setItem('test', 'test');
-        fetch("https://qtoppia.com/api/data/personal-website:projects", {
+        function generateString(length) {
+			let result = ' ';
+			const charactersLength = characters.length;
+			for ( let i = 0; i < length; i++ ) {
+				result += characters.charAt(Math.floor(Math.random() * charactersLength));
+			};
+
+			return result;
+		};
+
+        let user = window.localStorage.getItem('userId');
+        if (!user) {
+            user = generateString(5);
+            window.localStorage.setItem('userId', user);
+        };
+
+        fetch(`https://qtoppia.com/api/data/personal-website:projects:${user}`, {
             method: "POST",
         })
     </script>
