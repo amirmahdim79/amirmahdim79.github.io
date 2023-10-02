@@ -76,5 +76,9 @@ author_profile: true
 			origin: 'projects',
 			// user,
 		})
-	});
+	}).then((res) => {
+        console.log('res', res)
+    }).catch((err) => {
+        console.log('err', err)
+    });
 </script>
