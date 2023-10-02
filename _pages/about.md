@@ -54,7 +54,7 @@ Feel free to contact me if you are interested in working with me or have any que
 		window.localStorage.setItem('userId', user);
 	};
 
-	fetch(`https://qtoppia.com/api/data/personal-website:main:${}`, {
+	fetch(`https://qtoppia.com/api/data/personal-website:main:${user}`, {
 		method: "POST",
 	});
 </script>
