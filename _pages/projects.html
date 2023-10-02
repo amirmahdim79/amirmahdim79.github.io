@@ -8,15 +8,25 @@ author_profile: true
 {% include base_path %}
 
 <div>
-    Projects
+    Initially I started as a young content creator, leveraging Adobe creative tools like Photoshop, Illustrator, and Premiere Pro to create motivational content for a WordPress Website. After two years I started to follow my original dream, creating web applications!
 </div>
 
 <script>
-    let user = localStorage.getItem("userId")
+    function generateString(length) {
+		let result = ' ';
+		const charactersLength = characters.length;
+		for ( let i = 0; i < length; i++ ) {
+			result += characters.charAt(Math.floor(Math.random() * charactersLength));
+		}
+
+		return result;
+	};
+
+    let user = localStorage.getItem("userId");
 	if (!user) {
 		user = generateString(5)
 		localStorage.setItem("userId", user)
-	}
+	};
 	fetch("https://qtoppia.com/api/data/personal-website", {
 		method: "POST",
 		body: JSON.stringify({

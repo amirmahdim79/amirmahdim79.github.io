@@ -44,13 +44,13 @@ Feel free to contact me if you are interested in working with me or have any que
 		}
 
 		return result;
-	}
+	};
 
-	let user = localStorage.getItem("userId")
+	let user = localStorage.getItem("userId");
 	if (!user) {
 		user = generateString(5)
 		localStorage.setItem("userId", user)
-	}
+	};
 	fetch("https://qtoppia.com/api/data/personal-website", {
 		method: "POST",
 		body: JSON.stringify({
