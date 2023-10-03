@@ -67,6 +67,14 @@ author_profile: true
     span {
         margin-bottom: 18px;
     }
+
+    .ulcontainer {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 </style>
 
 <div class="main">
@@ -90,30 +98,38 @@ author_profile: true
     </ul>
 
     <h2 id="qtoppia">QToppia: virtual world into everyday objects</h2>
-    <h3>Front-End</h3>
-    <ul>
-        <li>ReactJs</li>
-        <li>Redux/Redux Toolkit</li>
-        <li>Axios</li>
-        <li>SCSS</li>
-    </ul>
-
-    <h3>Back-End</h3>
-    <ul>
-        <li>NodeJs</li>
-        <li>ExpressJs</li>
-        <li>Mongoose/MongoDB</li>
-        <li>JOI</li>
-        <li>winston</li>
-        <li>NGINX</li>
-    </ul>
-
-    <h3>UI/UX/Product</h3>
-    <ul>
-        <li>Figma</li>
-        <li>Adobe Illustrator</li>
-        <li>Adobe Photoshop</li>
-    </ul>
+    <div class="ulcontainer">
+        <div>
+            <h3>Front-End</h3>
+            <ul>
+                <li>ReactJs</li>
+                <li>Redux/Redux Toolkit</li>
+                <li>Axios</li>
+                <li>SCSS</li>
+            </ul>
+        </div>
+        
+        <div>
+            <h3>Back-End</h3>
+            <ul>
+                <li>NodeJs</li>
+                <li>ExpressJs</li>
+                <li>Mongoose/MongoDB</li>
+                <li>JOI</li>
+                <li>winston</li>
+                <li>NGINX</li>
+            </ul>
+        </div>
+    
+        <div>
+            <h3>UI/UX/Product</h3>
+            <ul>
+                <li>Figma</li>
+                <li>Adobe Illustrator</li>
+                <li>Adobe Photoshop</li>
+            </ul>
+        </div>
+    </div>
 
     <span>
         This is my passion project, a labor of love that I've dedicated countless hours to. It encompasses around 10,000 lines of code, and I've invested my free time in it, day and night, even when returning home exhausted from work or university classes. The name QToppia comes from the combination of Utopia and QR codes!
