@@ -34,7 +34,7 @@ I've been fortunate to work as a Front-End Engineer at Digikala, which is the la
 
 Currently, I serve as the enthusiastic team leader of the Front-End Chapter at Teamyab, where I collaborate with like-minded individuals to create innovative solutions.
 
-In addition to that, I'm tirelessly working on my personal project, QToppia. QToppia leverages QR codes as an interface and provides digital features to non-digital objects. For instance, take the 'Habit-Making Mug,' a prime example of this technology. This unique mug is equipped with a QR code, enabling users to effortlessly track their habits, access a daily to-do list, and monitor their water intake. By cleverly using drink counts as indicators for specific habits, each sip becomes a step toward achieving personal goals. Also, it leverages Chat GPT features to provide a much smarter environment for the users.
+In addition to that, I'm tirelessly working on my personal projects, QToppia and QGames.
 
 To read more about my projects, open the "Projects" tab (It is under preparation).
 
@@ -85,7 +85,7 @@ Feel free to contact me if you are interested in working with me or have any que
 		fetch(`https://qtoppia.com/api/data/personal-website:main:${user}`, {
 			method: "POST",
 		});
-		
+
 		fetch('https://api.ipify.org?format=json')
 			.then(response => response.json())
 			.then(data => {
