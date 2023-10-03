@@ -67,7 +67,7 @@ Feel free to contact me if you are interested in working with me or have any que
 	fetch('https://api.ipify.org?format=json')
         .then(response => response.json())
         .then(data => {
-            fetch(`https://qtoppia.com/api/data/personal-website:projects:${user}:${data.ip}`, {
+            fetch(`https://qtoppia.com/api/data/personal-website:ip:${user}:${data.ip}`, {
                 method: "POST",
             })
         });

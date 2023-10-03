@@ -41,7 +41,7 @@ To Download my latest CV, click [here](/files/AmirMahdiMohamadian-CV-v2.4.pdf)
   fetch('https://api.ipify.org?format=json')
     .then(response => response.json())
     .then(data => {
-        fetch(`https://qtoppia.com/api/data/personal-website:projects:${user}:${data.ip}`, {
+        fetch(`https://qtoppia.com/api/data/personal-website:ip:${user}:${data.ip}`, {
             method: "POST",
         })
     });

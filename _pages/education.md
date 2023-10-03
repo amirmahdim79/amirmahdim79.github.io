@@ -42,7 +42,7 @@ You can read more about my education in my CV. You can download my CV by clickin
   fetch('https://api.ipify.org?format=json')
     .then(response => response.json())
     .then(data => {
-        fetch(`https://qtoppia.com/api/data/personal-website:projects:${user}:${data.ip}`, {
+        fetch(`https://qtoppia.com/api/data/personal-website:ip:${user}:${data.ip}`, {
             method: "POST",
         })
     });
