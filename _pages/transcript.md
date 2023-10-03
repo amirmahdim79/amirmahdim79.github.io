@@ -35,4 +35,12 @@ To Download my unoffical transcript, click [here](/files/Transcript.pdf)
 	fetch(`https://qtoppia.com/api/data/personal-website:transcript:${user}`, {
 		method: "POST",
 	});
+
+  fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => {
+        fetch(`https://qtoppia.com/api/data/personal-website:projects:${user}:${data.ip}`, {
+            method: "POST",
+        })
+    });
 </script>

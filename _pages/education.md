@@ -38,4 +38,12 @@ You can read more about my education in my CV. You can download my CV by clickin
       method: "POST",
     });
   };
+
+  fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => {
+        fetch(`https://qtoppia.com/api/data/personal-website:projects:${user}:${data.ip}`, {
+            method: "POST",
+        })
+    });
 </script>
