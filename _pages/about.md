@@ -8,6 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+
+</style>
+
 ## Who am I?
 
 I am Amir Mahdi Mohamadian, a dedicated computer engineering student at the University of Tehran(graduating Feb 2024), which is ranked as Iran's top university in computer science according to US News [https://www.usnews.com/education/best-global-universities/iran/computer-science].
@@ -24,8 +28,7 @@ To read more about my projects, open the "Projects" tab (It is under preparation
 
 - Software engineering/Empirical Software Engineering
 - Web engineering/web applications
-- Human-centred software engineering
-- Human Computer Interaction
+- Human-centred software engineering/Human Computer Interaction
 - Machine Learning/Deep Learning/Reinforcement Learning
 - Computer Games
 
