@@ -10,11 +10,15 @@ redirect_from:
 
 ## Who am I?
 
-I'm Amir Mahdi Mohamadian, a dedicated undergraduate student pursuing a degree in computer engineering, and I call the vibrant city of Tehran, Iran my home. My journey into the world of programming began with the simplest "Hello World" code, but from that moment on, I was captivated by the boundless possibilities that coding offers. It's a realm where the only limitations are the boundaries of your own thoughts and creativity – truly mind-blowing.
+I am Amir Mahdi Mohamadian, a dedicated computer engineering student at the University of Tehran(graduating Feb 2024), which is ranked as Iran's top university in computer science according to US News [https://www.usnews.com/education/best-global-universities/iran/computer-science].
 
-Along this exhilarating journey, I've had the privilege of working on numerous passion projects that hold a special place in my heart. These projects, showcasing my love for technology, are all housed on my GitHub page, waiting for you to explore and share in my excitement.
+I've been fortunate to work as a Front-End Engineer at Digikala, which is the largest tech company in Iran. Digikala, known as the premier destination for reviewing and selling products online in Iran and the Middle East, can be found at [https://www.digikala.com/].
 
-Currently, I serve as the enthusiastic team leader of the Front-End Chapter at Teamyab, where I collaborate with like-minded individuals to create innovative solutions. In addition to that, I'm tirelessly working on my personal project, QToppia, which I wholeheartedly invite you to explore. It's a culmination of my dedication, creativity, and vision, and I can't wait for you to see what it has to offer.
+Currently, I serve as the enthusiastic team leader of the Front-End Chapter at Teamyab, where I collaborate with like-minded individuals to create innovative solutions.
+
+In addition to that, I'm tirelessly working on my personal project, QToppia. QToppia leverages QR codes as an interface and provides digital features to non-digital objects. For instance, take the 'Habit-Making Mug,' a prime example of this technology. This unique mug is equipped with a QR code, enabling users to effortlessly track their habits, access a daily to-do list, and monitor their water intake. By cleverly using drink counts as indicators for specific habits, each sip becomes a step toward achieving personal goals. Also, it leverages Chat GPT features to provide a much smarter environment for the users.
+
+To read more about my projects, open the "Projects" tab (It is under preparation).
 
 ## What are my research interests?
 
