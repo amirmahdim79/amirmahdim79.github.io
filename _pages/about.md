@@ -9,8 +9,22 @@ redirect_from:
 ---
 
 <style>
+	.images-row {
+		display: flex;
+		height: 300px;
+		width: 100%;
+	}
 
+	.images-row > img {
+		object-fit: contain;
+	}
 </style>
+
+<div class="images-row">
+	<img src="../files/projects/duolingo/1.jpg" />
+	<img src="../files/projects/duolingo/2.jpg" />
+</div>
+I'm deticated! j'apprends le français depuis plus d'un an!
 
 ## Who am I?
 
@@ -43,8 +57,6 @@ Recently, I've developed a deep passion for Machine Learning and Deep Learning, 
 I've always taken pleasure in sharing my knowledge with enthusiastic younger students who aspire to follow a similar path to mine. Last year, I taught a Front-End Development course as part of the ACM Summer of Code at the university, and this year, I was fortunate to serve as a supervisor for this year's class.
 
 <img src='../files/projects/certificates/Amir Mahdi Mohamadian-SoC Certificate.jpg' alt='soc-certificate' />
-
-I enjoy
 
 ## Contact
 
