@@ -24,7 +24,7 @@ redirect_from:
 	<img src="../files/projects/duolingo/1.jpg" />
 	<img src="../files/projects/duolingo/2.jpg" />
 </div>
-I'm deticated! j'apprends le français depuis plus d'un an!
+I'm dedicated! j'apprends le français depuis plus d'un an!
 
 ## Who am I?
 
