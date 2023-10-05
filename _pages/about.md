@@ -20,12 +20,6 @@ redirect_from:
 	}
 </style>
 
-<div class="images-row">
-	<img src="../files/projects/duolingo/1.jpg" />
-	<img src="../files/projects/duolingo/2.jpg" />
-</div>
-I'm dedicated! j'apprends le français depuis plus d'un an!
-
 ## Who am I?
 
 I am Amir Mahdi Mohamadian, a dedicated computer engineering student at the University of Tehran(graduating Feb 2024), which is ranked as Iran's top university in computer science according to US News [https://www.usnews.com/education/best-global-universities/iran/computer-science].
@@ -37,6 +31,12 @@ Currently, I serve as the enthusiastic team leader of the Front-End Chapter at T
 In addition to that, I'm tirelessly working on my personal projects, QToppia and QGames.
 
 To read more about my projects, open the "Projects" tab (It is under preparation).
+
+<div class="images-row">
+	<img src="../files/projects/duolingo/1.jpg" />
+	<img src="../files/projects/duolingo/2.jpg" />
+</div>
+J'apprends le français depuis plus d'un an!
 
 ## What are my research interests?
 
