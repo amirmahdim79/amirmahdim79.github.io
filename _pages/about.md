@@ -53,6 +53,7 @@ My primary focus lies in the realms of software engineering and web development.
 Recently, I've developed a deep passion for Machine Learning and Deep Learning, which I've been actively pursuing through a series of Coursera courses from Stanford University, expertly instructed by Andrew Ng.
 
 <img src='../files/projects/certificates/certificate.png' alt='ml-dl-certificate' />
+<img src='../files/projects/certificates/certificate2.png' alt='ml-dl-certificate' />
 
 I've always taken pleasure in sharing my knowledge with enthusiastic younger students who aspire to follow a similar path to mine. Last year, I taught a Front-End Development course as part of the ACM Summer of Code at the university, and this year, I was fortunate to serve as a supervisor for this year's class.
 
