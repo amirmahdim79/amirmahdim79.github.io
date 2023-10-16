@@ -20,9 +20,11 @@ redirect_from:
 	}
 </style>
 
+Front-End Engineer, Back-End Developer, UI/UX Designer, Machine Learning Engineer, all in one!
+
 ## Who am I?
 
-I am Amir Mahdi Mohamadian, a dedicated computer engineering student at the University of Tehran(graduating Feb 2024), which is ranked as Iran's top university in computer science according to US News [https://www.usnews.com/education/best-global-universities/iran/computer-science].
+Hi! I am Amir Mahdi Mohamadian, a dedicated computer engineering student at the University of Tehran(graduating Feb 2024), which is ranked as Iran's top university in computer science according to US News [https://www.usnews.com/education/best-global-universities/iran/computer-science].
 
 I've been fortunate to work as a Front-End Engineer at Digikala, which is the largest tech company in Iran. Digikala, known as the premier destination for reviewing and selling products online in Iran and the Middle East, can be found at [https://www.digikala.com/].
 
