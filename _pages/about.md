@@ -20,25 +20,43 @@ redirect_from:
 	}
 </style>
 
-Front-End Engineer, Back-End Developer, UI/UX Designer, Machine Learning Engineer, all in one!
+Front-End Engineer, Back-End Developer, UI/UX Designer, Machine Learning Enthusiastic, all in one!
 
 ## Who am I?
 
-Hi! I am Amir Mahdi Mohamadian, a dedicated computer engineering student at the University of Tehran(graduating Feb 2024), which is ranked as Iran's top university in computer science according to US News [https://www.usnews.com/education/best-global-universities/iran/computer-science].
+Hi! I am Amir Mahdi Mohamadian, a dedicated computer engineering student graduated from the University of Tehran, which is ranked as Iran's top university in computer science according to US News [https://www.usnews.com/education/best-global-universities/iran/computer-science].
 
 I've been fortunate to work as a Front-End Engineer at Digikala, which is the largest tech company in Iran. Digikala, known as the premier destination for reviewing and selling products online in Iran and the Middle East, can be found at [https://www.digikala.com/].
 
 Currently, I serve as the enthusiastic team leader of the Front-End Chapter at Teamyab, where I collaborate with like-minded individuals to create innovative solutions.
 
-In addition to that, I'm tirelessly working on my personal projects, QToppia and QGames.
+In addition to that, I'm tirelessly working on my personal projects.
 
 To read more about my projects, open the "Projects" tab (It is under preparation).
 
 <div class="images-row">
-	<img src="../files/projects/duolingo/1.jpg" />
-	<img src="../files/projects/duolingo/2.jpg" />
+	<img src="../files/projects/duolingo/DUO.png" />
+	<!-- <img src="../files/projects/duolingo/2.jpg" /> -->
 </div>
 J'apprends le français depuis plus d'un an!
+
+## Undergraduate Thesis Project
+
+I am deeply honored to receive this award for my undergraduate thesis project at the 20th project day in the University of Tehran.
+
+We have worked for almost a year on this project and I was very pleased to see the results and also the reaction of our university’s faculty members to our project and how it solved their problems in managing their research labs.
+
+Our project aims to help any university’s faculty to manage their research labs and supervise their students with ease. Providing beneficial solutions for professors and students needs and problems while working in a research lab.
+
+<div class="images-row">
+	<img src="../files/projects/projectday/project day 01.jpg" />
+	<img src="../files/projects/projectday/project day 02.jpg" />
+	<img src="../files/projects/projectday/project day 03.jpg" />
+</div>
+<div class="images-row">
+	<img src="../files/projects/projectday/project day 04.jpg" />
+	<img src="../files/projects/projectday/project day 05.jpg" />
+</div>
 
 ## What are my research interests?
 
