@@ -11,7 +11,7 @@ redirect_from:
 
 ## Download
 
-To Download my latest CV, click [here](/files/AmirMahdiMohamadian-CV-v2.4.pdf)
+To Download my latest CV, click [here](/files/AmirMahdiMohamadian-CV-v2.5.pdf)
 
 <script>
 	function generateString(length) {
